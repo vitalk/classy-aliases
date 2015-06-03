@@ -1,7 +1,7 @@
 Classy aliases
 ==============
 
-Prefix-less aliases to essential classy variables.
+Prefix-less aliases to essential [classy variables](https://github.com/vitalk/classy-defaults).
 
 Installation
 ------------
