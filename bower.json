@@ -1,0 +1,25 @@
+{
+  "name": "classy-aliases",
+  "version": "0.1.0",
+  "authors": [
+    "Vital Kudzelka <vital.kudzelka@gmail.com>"
+  ],
+  "description": "Prefix-less aliases to essential classy variables.",
+  "main": "defaults.aliases.less",
+  "keywords": [
+    "css",
+    "oocss",
+    "classy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "classy-defaults": "~0.2.2"
+  }
+}

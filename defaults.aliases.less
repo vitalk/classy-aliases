@@ -1,0 +1,46 @@
+// Prefix-less aliases to essential classy variables.
+
+
+// Disable aliases for media queries.
+@classy-alias-media-queries: false;
+
+
+// Units.
+@base-font-size:         @classy-base-font-size;
+@line-height:            @classy-line-height;
+@line-height-ratio:      @classy-line-height-ratio;
+@unit:                   @classy-unit;
+
+
+// Fonts.
+@serif-font-family:      @classy-serif-font-family;
+@sans-serif-font-family: @classy-sans-serif-font-family;
+@monospace-font-family:  @classy-monospace-font-family;
+
+
+// Define aliases to media queries only when flag is set.
+.classy-alias-media-queries() when (@classy-alias-media-queries) {
+
+    // Breakpoints.
+    @palm-to:        @classy-palm-to;
+    @tablet-from:    @classy-tablet-from;
+    @tablet-to:      @classy-tablet-to;
+    @laptop-from:    @classy-laptop-from;
+    @laptop-to:      @classy-laptop-to;
+    @desktop-from:   @classy-desktop-from;
+
+
+    // Media queries.
+    @portrait:      @classy-portrait;
+    @landscape:     @classy-landscape;
+    @retina:        @classy-retina;
+    @mobile:        @classy-mobile;
+    @tablet:        @classy-tablet;
+    @tablet-and-up: @classy-tablet-and-up;
+    @portable:      @classy-portable;
+    @laptop:        @classy-laptop;
+    @laptop-and-up: @classy-laptop-and-up;
+    @desktop:       @classy-desktop;
+}
+.classy-alias-media-queries() when (default()) {};
+.classy-alias-media-queries();
